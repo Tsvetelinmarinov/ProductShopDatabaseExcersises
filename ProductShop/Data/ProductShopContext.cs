@@ -55,7 +55,7 @@ namespace ProductShop.Data
 
             modelBuilder.Entity<Category>((cat) =>
             {
-                cat.Property(propertyExpression: (categ) => categ.Name)
+                cat.Property(propertyExpression: (categ) => categ.Id)
                    .ValueGeneratedOnAdd();
             });
         }
