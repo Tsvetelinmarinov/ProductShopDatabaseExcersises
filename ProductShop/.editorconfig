@@ -1,0 +1,8 @@
+# Editor configuration file.
+[*.cs]
+
+# IDE0059: Variable is never used.
+dotnet_diagnostic.IDE0059.severity = silent
+
+# IDE0060: Parameter can be removed.
+dotnet_diagnostic.IDE0060.severity = silent
